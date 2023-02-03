@@ -1,0 +1,15 @@
+Package: test
+Title: Compendium for "Title of my Paper"
+Version: 0.0.0.9000
+Authors@R:
+    person("Petr", "Pajdla", , "petr.pajdla@proton.me", role = c("aut", "cre"))
+Description: Compendium for "Title of my Paper"
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: here
+Suggests: devtools,
+    git2r
